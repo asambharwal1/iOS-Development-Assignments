@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9496622A202FA4F7000799F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94966229202FA4F7000799F4 /* AppDelegate.swift */; };
+		9496622C202FA4F7000799F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9496622B202FA4F7000799F4 /* ViewController.swift */; };
+		9496622F202FA4F7000799F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9496622D202FA4F7000799F4 /* Main.storyboard */; };
+		94966231202FA4F7000799F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94966230202FA4F7000799F4 /* Assets.xcassets */; };
+		94966234202FA4F7000799F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94966232202FA4F7000799F4 /* LaunchScreen.storyboard */; };
+		9496623F202FA4F7000799F4 /* SambharwalA_TVRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9496623E202FA4F7000799F4 /* SambharwalA_TVRemoteTests.swift */; };
+		9496624A202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94966249202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.swift */; };
+		94F5CA41203CC67500896163 /* DVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5CA40203CC67500896163 /* DVRViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9496623B202FA4F7000799F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9496621E202FA4F7000799F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94966225202FA4F7000799F4;
+			remoteInfo = SambharwalA_TVRemote;
+		};
+		94966246202FA4F8000799F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9496621E202FA4F7000799F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94966225202FA4F7000799F4;
+			remoteInfo = SambharwalA_TVRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94966226202FA4F7000799F4 /* SambharwalA_TVRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SambharwalA_TVRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94966229202FA4F7000799F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9496622B202FA4F7000799F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9496622E202FA4F7000799F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94966230202FA4F7000799F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94966233202FA4F7000799F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94966235202FA4F7000799F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9496623A202FA4F7000799F4 /* SambharwalA_TVRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SambharwalA_TVRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9496623E202FA4F7000799F4 /* SambharwalA_TVRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SambharwalA_TVRemoteTests.swift; sourceTree = "<group>"; };
+		94966240202FA4F7000799F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94966245202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SambharwalA_TVRemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94966249202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SambharwalA_TVRemoteUITests.swift; sourceTree = "<group>"; };
+		9496624B202FA4F8000799F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F5CA40203CC67500896163 /* DVRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVRViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94966223202FA4F7000799F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94966237202FA4F7000799F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94966242202FA4F8000799F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9496621D202FA4F7000799F4 = {
+			isa = PBXGroup;
+			children = (
+				94966228202FA4F7000799F4 /* SambharwalA_TVRemote */,
+				9496623D202FA4F7000799F4 /* SambharwalA_TVRemoteTests */,
+				94966248202FA4F8000799F4 /* SambharwalA_TVRemoteUITests */,
+				94966227202FA4F7000799F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94966227202FA4F7000799F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94966226202FA4F7000799F4 /* SambharwalA_TVRemote.app */,
+				9496623A202FA4F7000799F4 /* SambharwalA_TVRemoteTests.xctest */,
+				94966245202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94966228202FA4F7000799F4 /* SambharwalA_TVRemote */ = {
+			isa = PBXGroup;
+			children = (
+				94F5CA40203CC67500896163 /* DVRViewController.swift */,
+				94966229202FA4F7000799F4 /* AppDelegate.swift */,
+				9496622B202FA4F7000799F4 /* ViewController.swift */,
+				9496622D202FA4F7000799F4 /* Main.storyboard */,
+				94966230202FA4F7000799F4 /* Assets.xcassets */,
+				94966232202FA4F7000799F4 /* LaunchScreen.storyboard */,
+				94966235202FA4F7000799F4 /* Info.plist */,
+			);
+			path = SambharwalA_TVRemote;
+			sourceTree = "<group>";
+		};
+		9496623D202FA4F7000799F4 /* SambharwalA_TVRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				9496623E202FA4F7000799F4 /* SambharwalA_TVRemoteTests.swift */,
+				94966240202FA4F7000799F4 /* Info.plist */,
+			);
+			path = SambharwalA_TVRemoteTests;
+			sourceTree = "<group>";
+		};
+		94966248202FA4F8000799F4 /* SambharwalA_TVRemoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94966249202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.swift */,
+				9496624B202FA4F8000799F4 /* Info.plist */,
+			);
+			path = SambharwalA_TVRemoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94966225202FA4F7000799F4 /* SambharwalA_TVRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9496624E202FA4F8000799F4 /* Build configuration list for PBXNativeTarget "SambharwalA_TVRemote" */;
+			buildPhases = (
+				94966222202FA4F7000799F4 /* Sources */,
+				94966223202FA4F7000799F4 /* Frameworks */,
+				94966224202FA4F7000799F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SambharwalA_TVRemote;
+			productName = SambharwalA_TVRemote;
+			productReference = 94966226202FA4F7000799F4 /* SambharwalA_TVRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94966239202FA4F7000799F4 /* SambharwalA_TVRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94966251202FA4F8000799F4 /* Build configuration list for PBXNativeTarget "SambharwalA_TVRemoteTests" */;
+			buildPhases = (
+				94966236202FA4F7000799F4 /* Sources */,
+				94966237202FA4F7000799F4 /* Frameworks */,
+				94966238202FA4F7000799F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9496623C202FA4F7000799F4 /* PBXTargetDependency */,
+			);
+			name = SambharwalA_TVRemoteTests;
+			productName = SambharwalA_TVRemoteTests;
+			productReference = 9496623A202FA4F7000799F4 /* SambharwalA_TVRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94966244202FA4F8000799F4 /* SambharwalA_TVRemoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94966254202FA4F8000799F4 /* Build configuration list for PBXNativeTarget "SambharwalA_TVRemoteUITests" */;
+			buildPhases = (
+				94966241202FA4F8000799F4 /* Sources */,
+				94966242202FA4F8000799F4 /* Frameworks */,
+				94966243202FA4F8000799F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94966247202FA4F8000799F4 /* PBXTargetDependency */,
+			);
+			name = SambharwalA_TVRemoteUITests;
+			productName = SambharwalA_TVRemoteUITests;
+			productReference = 94966245202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9496621E202FA4F7000799F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aashish Sambharwal";
+				TargetAttributes = {
+					94966225202FA4F7000799F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					94966239202FA4F7000799F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94966225202FA4F7000799F4;
+					};
+					94966244202FA4F8000799F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94966225202FA4F7000799F4;
+					};
+				};
+			};
+			buildConfigurationList = 94966221202FA4F7000799F4 /* Build configuration list for PBXProject "SambharwalA_TVRemote" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9496621D202FA4F7000799F4;
+			productRefGroup = 94966227202FA4F7000799F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94966225202FA4F7000799F4 /* SambharwalA_TVRemote */,
+				94966239202FA4F7000799F4 /* SambharwalA_TVRemoteTests */,
+				94966244202FA4F8000799F4 /* SambharwalA_TVRemoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94966224202FA4F7000799F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94966234202FA4F7000799F4 /* LaunchScreen.storyboard in Resources */,
+				94966231202FA4F7000799F4 /* Assets.xcassets in Resources */,
+				9496622F202FA4F7000799F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94966238202FA4F7000799F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94966243202FA4F8000799F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94966222202FA4F7000799F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9496622C202FA4F7000799F4 /* ViewController.swift in Sources */,
+				94F5CA41203CC67500896163 /* DVRViewController.swift in Sources */,
+				9496622A202FA4F7000799F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94966236202FA4F7000799F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9496623F202FA4F7000799F4 /* SambharwalA_TVRemoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94966241202FA4F8000799F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9496624A202FA4F8000799F4 /* SambharwalA_TVRemoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9496623C202FA4F7000799F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94966225202FA4F7000799F4 /* SambharwalA_TVRemote */;
+			targetProxy = 9496623B202FA4F7000799F4 /* PBXContainerItemProxy */;
+		};
+		94966247202FA4F8000799F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94966225202FA4F7000799F4 /* SambharwalA_TVRemote */;
+			targetProxy = 94966246202FA4F8000799F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9496622D202FA4F7000799F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9496622E202FA4F7000799F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94966232202FA4F7000799F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94966233202FA4F7000799F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9496624C202FA4F8000799F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9496624D202FA4F8000799F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9496624F202FA4F8000799F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SambharwalA_TVRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SambharwalA.SambharwalA-TVRemote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94966250202FA4F8000799F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SambharwalA_TVRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SambharwalA.SambharwalA-TVRemote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94966252202FA4F8000799F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SambharwalA_TVRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SambharwalA.SambharwalA-TVRemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SambharwalA_TVRemote.app/SambharwalA_TVRemote";
+			};
+			name = Debug;
+		};
+		94966253202FA4F8000799F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SambharwalA_TVRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SambharwalA.SambharwalA-TVRemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SambharwalA_TVRemote.app/SambharwalA_TVRemote";
+			};
+			name = Release;
+		};
+		94966255202FA4F8000799F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SambharwalA_TVRemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SambharwalA.SambharwalA-TVRemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SambharwalA_TVRemote;
+			};
+			name = Debug;
+		};
+		94966256202FA4F8000799F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SambharwalA_TVRemoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SambharwalA.SambharwalA-TVRemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SambharwalA_TVRemote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94966221202FA4F7000799F4 /* Build configuration list for PBXProject "SambharwalA_TVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9496624C202FA4F8000799F4 /* Debug */,
+				9496624D202FA4F8000799F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9496624E202FA4F8000799F4 /* Build configuration list for PBXNativeTarget "SambharwalA_TVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9496624F202FA4F8000799F4 /* Debug */,
+				94966250202FA4F8000799F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94966251202FA4F8000799F4 /* Build configuration list for PBXNativeTarget "SambharwalA_TVRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94966252202FA4F8000799F4 /* Debug */,
+				94966253202FA4F8000799F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94966254202FA4F8000799F4 /* Build configuration list for PBXNativeTarget "SambharwalA_TVRemoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94966255202FA4F8000799F4 /* Debug */,
+				94966256202FA4F8000799F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9496621E202FA4F7000799F4 /* Project object */;
+}
